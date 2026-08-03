@@ -132,7 +132,7 @@ Run `plugins` inside the shell (or `--list-plugins`) to see live readiness per t
 
 ```bash
 # 1. Grab the script
-git clone https://github.com/<your-username>/reconforg.git
+git clone https://github.com/TheCyberRabbit/TheCyberRabbitToolkit
 cd reconforg
 
 # 2. Install the only Python dependency
