@@ -1,0 +1,15 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# ReconForge — Python dependencies
+#
+#   Install with:   pip install -r requirements.txt
+#   Requires:       Python 3.10+
+#
+# NOTE: The security tools ReconForge wraps (nmap, gobuster, ffuf, subfinder,
+#       assetfinder, amass, dig, nslookup, whois, hashcat) are SYSTEM
+#       BINARIES, not Python packages — install them with your OS package
+#       manager. Run `python3 reconforg.py --list-tools` to see exactly what
+#       is missing and the install command for your platform.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Core TUI framework (tables, panels, progress bars, colors)
+rich>=13.7,<14.0
